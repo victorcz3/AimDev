@@ -1,0 +1,320 @@
+/*
+
+Site Name: Fresh Wordpress Theme Author: Josh McDonald Twitter: @onestepcreative Stylesheet: Responsive Stylesheet
+
+*/
+
+/* ================================================== */ /* === BASE STYLES AND PRECISE FOR MOBILE DEVICES === */ /* ================================================== */
+
+@media only screen and (max-width: 1023px) {
+body {
+padding:  50px 0 0 0;
+}
+/* ========================= */ /* ===== PRODUCTS PAGE ===== */ /* ========================= */
+
+#category-content {
+padding: 0 0 0 0;
+}
+#category-content img { }
+#arrow-container-first,
+#arrow-container {
+margin-left: -5.5%;
+}
+ 
+.expandable-content {
+padding-left: 5px;
+padding-right: 5px;
+}
+ 
+.expandable-content img {
+display: none;
+}
+ 
+.category-side-image {
+display: none;
+}
+ 
+/* ========================= */ /* ===== RESPONSIVE MENU ===== */ /* ========================= */
+ 
+#menu-expand-button {
+background-color: black;
+background-color: #044879;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#0066B0), to(#044879));
+background-image: -webkit-linear-gradient(top, #0066B0, #044879);
+background-image: -moz-linear-gradient(top, #0066B0, #044879);
+background-image: -o-linear-gradient(top, #0066B0, #044879);
+background-image: -ms-linear-gradient(top, #0066B0, #044879);
+background-image: linear-gradient(top, #0066B0, #044879);
+border: 1px solid rgb(120,120,120);
+border-radius: 3px;
+display: block;
+float: left;
+height: 40px;
+margin: 5px 0 4px 4px;
+width: 50px;
+}
+ 
+#mobile-expand-menu {
+background-repeat:repeat;
+left: 0px;
+height: 200px;
+overflow: scroll;
+position: fixed;
+top: 50px;
+width: 100%;
+z-index: 980;
+-webkit-transform: translateZ(0);
+}
+ 
+#mobile-expand-menu a {
+  color: rgb(100,100,100);
+  background-color: rgb(240,240,240);
+  border-bottom: 1px solid rgb(220,220,220);
+  border-top: 1px solid rgb(250,250,255);
+  box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box;
+  display: block;
+  float: left;
+  font: 16px/20px Helvetica;
+height: 40px;
+padding: 10px 10px 0 10px;
+width: 100%;
+}
+ 
+#mobile-expand-menu a.active.first,
+#mobile-expand-menu a.active {
+background-color: rgb(220,220,220) !important;
+background-image: none !important;
+}
+ 
+#page {
+margin: 50px 0 0 0;
+}
+ 
+ 
+}
+
+
+@media only screen and (min-width: 320px) {
+
+#header-container, #chat-container, #child-nav-container { display: none; }
+
+#mobile-header { background-color: #044879; background-image: -webkit-gradient(linear, left top, left bottom, from(#0066B0), to(#044879)); background-image: -webkit-linear-gradient(top, #0066B0, #044879); background-image: -moz-linear-gradient(top, #0066B0, #044879); background-image: -o-linear-gradient(top, #0066B0, #044879); background-image: -ms-linear-gradient(top, #0066B0, #044879); background-image: linear-gradient(top, #0066B0, #044879); display: block; height: 50px;
+margin: 0 0 20px 0;
+padding: 0; position: fixed; top: 0; left: 0; right: 0; z-index: 900; }
+
+#why-image-header { display: none; }
+
+#mobile-header #mobile-logo { color: #FFF; display: block; font: 30px/50px Georgia, sans-serif; margin: 0 0 0 -60px; padding: 0; text-align: center; width: 100%; }
+
+#page-header-container { margin: 0 auto; }
+
+#page-header-nav { margin: 0 auto 35px auto; }
+
+.dropdown-container { display: block; margin: 70px auto 0 auto; padding: 0; text-align: center; }
+
+#content-container {
+margin: 20px 0 0 0;
+}
+
+.agent-signup, .agent-signup-home { clear: both; display: block; float: none; margin: 20px 0; padding: 10px 0; text-align: center; width: 100%; }
+
+#col1, #col2, #col3 { display: block; margin: 0; padding: 0; }
+
+#col3 { border-bottom: none; }
+
+.home-column { border-bottom: 1px dotted #6F6F6F; display: block; height: auto;
+margin: 0 0 20px 0;
+padding: 0 0 20px 0;
+}
+
+.column-content {
+padding: 0 0 15px 0;
+}
+
+#column-img { margin: 0 auto 20px auto; }
+
+#calendar-container {
+padding: 0 0 0 0;
+}
+
+#events-calendar { float: none; margin: 0 auto; text-align: center; }
+
+.about-info {
+padding: 0px 0 0 0;
+}
+
+.bottom-item-container.last { display: none; }
+
+#alerts { height: auto; }
+
+h3.alert-header { display: block; float: none; font: 18px/30px Georgia, sans-serif; text-align: center;
+margin: 0 0 5px 0;
+}
+
+.full-note { display: none; }
+
+.short-note { display: block; text-align: center; }
+
+.close-x { position: absolute; top: 3px; right: 10px; }
+
+#agent-control-panel .dashboard-square-button { float: left; margin: 10px auto 0 auto; padding: 0 10px; width: 90%; }
+
+.post-content .alignleft, .post-content img.alignleft { margin-right: 1.5em; display: inline; float: left; 
+}
+.post-content .alignright, .post-content img.alignright { margin-left: 1.5em; display: inline; float: right; 
+}
+.post-content .aligncenter, .post-content img.aligncenter { margin-right: auto; margin-left: auto; display: block; clear: both; 
+}
+
+.wp-caption { }
+
+.not-mobile { display: none; }
+
+} /* // END MIN 320PX */
+
+
+
+/* =================================================================== */ /* === PORTRAIT IPADS & LARGER SCREENS / LAPTOPS(SMALLER) & TABLES === */ /* =================================================================== */
+
+@media only screen and (min-width: 768px) {
+
+/* =================================================== */ /* === GRID OPTIONS - BASED ON THE 1140 GRID SYTEM === */ /* =================================================== */ /* === THANKS TO THE GUYS  OVER AT WWW.CSSGRID.NET === */ /* =================================================== */      .wrap { max-width: 960px; }    
+.onecol { width: 4.85% !important; }   /* // GRID 0 */
+.twocol { width: 13.45% !important; }   /* // GRID 1 */
+.threecol { width: 22.05% !important; }   /* // GRID 2 */
+.fourcol { width: 30.75% !important; }   /* // GRID 3 */
+.fivecol { width: 39.45% !important; }   /* // GRID 4 */
+.sixcol { width: 48% !important; }   /* // GRID 5 */
+.sevencol { width: 56.75% !important; }   /* // GRID 6 */
+.eightcol { width: 65.4% !important; }   /* // GRID 7 */
+.ninecol { width: 74.05% !important; }   /* // GRID 8 */
+.tencol { width: 82.7% !important; }   /* // GRID 9 */
+.elevencol { width: 91.35% !important; }  /* // GRID 10 */
+.twelvecol { width: 100% !important; }   /* // GRID 11 */
+
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, 
+.sevencol, .eightcol, .ninecol, .tencol, .elevencol {   /* // GRID 12 */
+float: left !important; position: relative !important; margin-right: 3.8%; 
+}
+
+.twelvecol {     float: left;     position: relative;     }
+.last { margin-right: 0 !important; float: right;  }
+.not-mobile { display: none; }
+
+.mobile-only { display: inline-block; }
+/* ======================================================= */ /* === END GRID OPTIONS, BASED ON THE 1140 GRID SYSTEM === */ /* ======================================================= */
+
+#page-header-container { margin: 0 auto 20px auto; }
+
+#page-header-nav { margin: 20px auto 35px auto; }
+
+.agent-signup, .agent-signup-home { display: inline-block; float: left; margin: 0; padding: 10px 20px; position: absolute; right: 10px; bottom: 10px; width: auto; }
+
+.agent-signup-home { position: absolute; bottom: 30px; right: 10px; margin: 0 10px 0 10px; z-index: 700; }
+
+#events-calendar { float: right; margin: 0; text-align: left; }
+
+.about-info { padding: 0; }
+
+.bottom-item-container.last { display: block; }
+
+#alerts { height: 30px; }
+
+h3.alert-header { color: #FF0000; float: left; font: 24px/30px Georgia, sans-serif; font-weight: bold; padding: 0;
+margin: 0 40px 0 0;
+}
+
+.full-note { display: inline-block; }
+
+.short-note { display: none; }
+
+.close-x { position: absolute; top: 9px; right: 10px; }
+
+#agent-control-panel .dashboard-square-button { float: right; min-width: 200px; max-width: 280px;
+margin: 10px 0 0 0;
+padding: 0 0 0 10px;
+}
+
+/* #agent-control-panel .dashboard-square-button {
+float: left;
+margin: 10px auto 0 auto;
+padding: 0 10px;
+width: 90%;
+} */
+/* ========================================== */ /* ===== MAIN CONTENT ELEMENTS & STYLES ===== */ /* ========================================== */
+
+.post-content { color: #555;
+}
+
+/* ========================================= */ /* === PAGINATION ELEMENTS & STYLES === */ /* ========================================= */
+
+.fresh-page-nav li { float: left; margin: 5px; }
+
+/* ========================================= */ /* === SIDEBAR / ASIDE ELEMENTS & STYLES === */ /* ========================================= */
+
+.sidebar { margin-top: 2.2em; 
+}
+
+.widgettitle { color: #565656; font: 14px/20px Georgia, Serif; font-weight: bold; margin: 0px 0px 0px 0px; margin-left: -8%;
+}
+
+.widget { padding: 0 0px 0;
+margin: 0.2em 0; 
+}
+.widget ul li { color: #000000;  list-style-image: url(../img/ui/caret.png); margin-bottom: 0.1em;
+padding: 0 0 0 0;
+}
+.widget a{ color: #000000;  list-style-image: url(../img/ui/caret.png);
+padding: 0 0 0 0;
+}
+.widget ul li ul { margin-top: 0.3em; padding-left: 1em; 
+}
+
+/* ======================================= */ /* === FOOTER LAYOUT ELEMENTS & STYLES === */ /* ======================================= */
+
+.footer-links ul li { }
+
+} /* // END MIN 768PX */
+
+
+
+
+/* ========================================= */ /* === DESKTOP SCREENS / FULLY ENHANCED  === */ /* ========================================= */
+
+@media only screen and (min-width: 1024px) {
+
+#header-container, #child-nav-container { display: block; }
+
+#mobile-header, .dropdown-container, #login-link { display: none; }
+
+#content-container { margin: 0; }
+
+.wrap { max-width: 1140px;  }
+
+.home-column { border: none; display: block; float: left; padding: 0 20px; width: 280px; }
+
+#col1 { padding: 0 20px 0 10px; } #col2 { padding: 0 20px; }
+
+#col3 { margin: 0;
+padding: 0 0 0 20px;
+}      .not-mobile { display: inline-block; }
+
+.mobile-only { display: none; }
+
+
+.customer-bg{ background:red; }      } /* // END MIN 1030PX */
+
+@media only screen and (min-width: 1030px) {
+
+#chat-container { display: block; }
+
+}
+
+/* ============================================================ */ /* === DESKTOP SCREENS / FULL SIZE LAYOUT & FULLY ENHANCED  === */ /* ============================================================ */
+
+@media only screen and (min-width: 1240px) {
+
+
+
+} /* // END MIN 1240PX */
+

@@ -1,0 +1,131 @@
+
+.soft-top{
+	height:250px;
+	width:300px;
+	background-color: green;
+	margin-top:20px;
+	margin-left:30px;
+	margin-right:80px;
+	float:left;
+	clear:all;
+	
+}
+
+
+.soft-top-2{
+	height:230px;
+	width:300px;
+	background-color: yellow;
+	margin-top:20px;
+	margin-left:30px;
+	margin-right:80px;
+	float:left;
+	clear:all;
+	
+}
+
+.soft-top-3{
+	height:230px;
+	width:300px;
+	background-color: red;
+	margin-top:200px;
+	margin-left:400px;
+	margin-right:80px;
+	
+
+	
+}
+
+.soft-mid{
+	height:200px;
+	width:300px;
+	background-color: blue;
+	top:-10px;
+	margin-left:30px;
+	margin-right:80px;
+	float:left;
+	
+}
+
+h4{
+	
+	color:red;
+	font-family:Helvetica;
+	size:14;
+	font:bold;
+	position:relative;
+    top:-18px;
+}
+
+h5{
+	font-family:Helvetica;
+	size:14;
+	line-height: 1px;
+	float:left;
+	position:relative;
+    top:-8px;
+	
+	
+}
+
+h6{
+	font-family:Helvetica;
+	font-size:90%;
+	color: 79787b;
+	line-height: 1%;
+	position:relative;
+    top:-22px;	
+}
+
+p{
+	font-family:Helvetica;
+	font-size:12px;
+	color:#504f51;
+	
+}
+
+.soft-text{
+	height:25px;
+	width:300px;
+	background-color:yellow;
+
+	float:left;
+	
+}
+
+.soft-text-2{
+	height:30px;
+	width:220px;
+	background-color:red;
+	float:left;
+	
+	
+}
+
+.soft-text-3{
+	height:20px;
+	width:220px;
+	background-color:blue;
+	float:left;
+	margin-top:1px;
+	
+}
+
+.soft-b{
+	
+	height:20px;
+	width:70px;
+	background-color:yellow;
+	margin-top:90px;
+	
+}
+
+.soft-text-4{
+	height:100px;
+	width:220px;
+	background-color:blue;
+	float:left;
+	margin-top:15px;
+	
+	
+}
